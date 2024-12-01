@@ -134,13 +134,6 @@ int main()
     drugiK.setA(100.25);
     drugiK.setB(100.25);
 
-    cout << "Pravokutnici:\n";
-    cout << "A: " << prvi.getA() << ", B: " << prvi.getB()
-         << " | Opseg: " << prvi.opseg() << ", Površina: " << prvi.povrsina() << endl;
-
-    cout << "Kvadrati:\n";
-    cout << "A: " << prviK.getA() << ", B: " << prviK.getB()
-         << " | Opseg: " << prviK.opseg() << ", Površina: " << prviK.povrsina() << endl;
 
     int n;
     cin >> n;
@@ -172,6 +165,13 @@ int main()
             cout << "Unos nije valjan!";
         }
     }
+    cout << "Pravokutnici:\n";
+    cout << "A: " << prvi.getA() << ", B: " << prvi.getB()
+         << " | Opseg: " << prvi.opseg() << ", Površina: " << prvi.povrsina() << endl;
+
+    cout << "Kvadrati:\n";
+    cout << "A: " << prviK.getA() << ", B: " << prviK.getB()
+         << " | Opseg: " << prviK.opseg() << ", Površina: " << prviK.povrsina() << endl;
 
     Pravokutnik zbroj = prvi + drugi;
     cout << zbroj;
